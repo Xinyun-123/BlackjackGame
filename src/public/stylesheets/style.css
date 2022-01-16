@@ -1,0 +1,67 @@
+.hide {
+    display: none;
+}
+  
+.cardDisplay{
+    text-indent: 0px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 140px;
+    height: 200px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    background-color: white;
+    background-size: contain;
+}
+  
+.cardDisplayHidden{
+    background-size: contain;
+    border-radius: 10px;
+    text-indent: -99999px;
+    width: 140px;
+    height: 200px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.total{
+    width: 200px;
+    height: 20px;
+    border: solid;
+    text-align: left;
+}
+  
+.button{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+  
+.hit-stay{
+    padding-left: 350px;
+}
+  
+.totalOver{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 400px;
+    height: 200px;
+    border: solid;
+    background-color: pink;
+    text-align: center;
+    font-size: 50px;
+}
